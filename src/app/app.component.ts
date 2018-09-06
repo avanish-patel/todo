@@ -12,6 +12,7 @@ export class AppComponent {
 
   addTodo(todo) {
     this.todoArray.push(todo);
+    this.todo = null;
     // console.log(this.todo);
     // console.log(this.todoArray);
   }
