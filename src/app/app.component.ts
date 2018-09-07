@@ -34,4 +34,9 @@ export class AppComponent {
       }
     }
   }
+  // toggleCheck() {
+  //   console.log(this.check);
+  //   this.lineThrough = "line-through";
+  //   return (this.check = !this.check);
+  // }
 }

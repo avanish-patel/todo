@@ -21,8 +21,12 @@
       <div class="data">
         <ul class="list-instyled">
 
-          <li *ngFor="let todo of todoArray">
-            <mat-checkbox>{{todo}}</mat-checkbox>
+          <li *ngFor="let todo of todoArray" [ngStyle]="{'text-decoration': lineThrough}">
+
+
+            <mat-checkbox class="check-box"></mat-checkbox>
+
+            {{todo}}
             <i class="material-icons" (click)="deleteTodo(todo)">delete</i>
           </li>
 

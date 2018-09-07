@@ -28,7 +28,7 @@ form .data {
 
 form .data li {
   background: #ffffff;
-  border-left: 4px solid #f97300;
+  border-left: 6px solid #f97300;
   padding: 1em;
   margin: 1em auto;
   color: #666;
@@ -93,3 +93,9 @@ form .form-control:focus {
 form {
   border-radius: 10px;
 }
+
+.check-box {
+  margin-right: 5px;
+}
+
+/* logo */
