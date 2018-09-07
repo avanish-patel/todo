@@ -1,2 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 @import url("https://fonts.googleapis.com/css?family=Raleway");
+/* import for material icon matbox to style */
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+body {
+  /* width: 100vw;
+  height: 100vh; */
+
+  background: url("./assets/background1.png");
+  /* background-repeat: no-repeat; */
+}

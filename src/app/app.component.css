@@ -27,7 +27,7 @@ form .data {
 }
 
 form .data li {
-  background: #fff;
+  background: #ffffff;
   border-left: 4px solid #f97300;
   padding: 1em;
   margin: 1em auto;
@@ -66,4 +66,30 @@ form .form-control:focus {
 
 .list-instyled {
   list-style: none;
+}
+
+#date {
+  float: left;
+  margin-inline-end: 60px;
+}
+
+#info {
+  display: inline-block;
+  font-family: "Raleway";
+  color: #f97300;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#heading {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.input-group-text {
+  margin-top: 75px;
+}
+
+form {
+  border-radius: 10px;
 }
